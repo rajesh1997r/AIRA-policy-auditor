@@ -1,0 +1,43 @@
+{
+  "document": "mit_ai_policy.txt",
+  "doc_prefix": "MIT",
+  "annotated_by": "manual",
+  "contradictions": [
+    {
+      "clause_a": "MIT_651560",
+      "clause_b": "MIT_931A96",
+      "type": "PERMISSION_CONFLICT",
+      "description": "Clause A encourages AI for research assistance including literature discovery and summarization; Clause B states that any AI use for research activities constitutes academic misconduct."
+    },
+    {
+      "clause_a": "MIT_4AFEB7",
+      "clause_b": "MIT_53DC3D",
+      "type": "ATTRIBUTION_CONFLICT",
+      "description": "Clause A mandates formal APA citation with model name, version, access date, and prompt; Clause B says a brief acknowledgment is fully sufficient with no formal citation required."
+    },
+    {
+      "clause_a": "MIT_2098BF",
+      "clause_b": "MIT_CA0DB8",
+      "type": "TOOL_CONFLICT",
+      "description": "Clause A restricts students to MIT-approved tools only, making non-approved tools a policy violation; Clause B permits any commercially available tool provided results are independently verified."
+    },
+    {
+      "clause_a": "MIT_9D1242",
+      "clause_b": "MIT_726AD4",
+      "type": "SCOPE_MISMATCH",
+      "description": "Clause A states the policy applies uniformly to ALL MIT students including graduate students; Clause B exempts graduate students doing thesis or dissertation research from all AI restrictions."
+    },
+    {
+      "clause_a": "MIT_C99510",
+      "clause_b": "MIT_201F52",
+      "type": "RETENTION_CONFLICT",
+      "description": "Clause A requires students to retain complete AI interaction logs for a minimum of one academic year after submission; Clause B states no record retention obligation exists after final submission."
+    },
+    {
+      "clause_a": "MIT_25B4EB",
+      "clause_b": "MIT_37682F",
+      "type": "CONSEQUENCE_CONFLICT",
+      "description": "Clause A states first violation results in a workshop and file notation with NO GPA impact or course failure; Clause B states ANY confirmed violation including first offense results in automatic failing grade."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+NORTHEASTERN UNIVERSITY — ARTIFICIAL INTELLIGENCE ACADEMIC INTEGRITY POLICY
+College of Engineering and Khoury College of Computer Sciences
+Effective: Fall 2024
+
+SECTION 1: GENERAL PRINCIPLES
+
+The use of artificial intelligence tools in academic coursework is a matter of academic integrity and must be governed by principles of honesty, transparency, and respect for the learning process.
+
+Students at Northeastern University are permitted to use AI writing assistants and large language models as brainstorming aids, grammar checkers, and research starting points in any course unless the instructor explicitly prohibits such use in the syllabus.
+
+All students, regardless of course level or degree program, are prohibited from using any AI-powered writing or code-generation tools at any stage of the academic submission process, including drafting, editing, or formatting.
+
+SECTION 2: DISCLOSURE AND ATTRIBUTION
+
+When AI tools have been used in preparing an academic submission, students must provide a full AI usage disclosure statement that includes the tool name, version, all prompts submitted, and the exact outputs received, appended to every assignment regardless of length or scope.
+
+For assignments under five hundred words or minor in-class activities, a simple acknowledgment such as "AI assistance was used in drafting this response" is sufficient disclosure and no further documentation is required.
+
+SECTION 3: SCOPE OF POLICY
+
+This AI academic integrity policy applies to all students enrolled in any course at Northeastern University across all colleges, campuses, and online programs without exception.
+
+The AI use guidelines set forth in this document apply exclusively to undergraduate students enrolled in the College of Arts and Sciences and do not extend to graduate-level coursework, professional programs, or students in other colleges.
+
+SECTION 4: SPECIAL ACCOMMODATIONS
+
+Non-native English speakers and students with documented language-based learning disabilities are specifically authorized to use AI grammar correction and language enhancement tools freely in all assignments without disclosure requirements, as these constitute accessibility accommodations.
+
+All students, including those with language-based accommodations, are subject to the same AI restrictions and no exemptions are granted based on language background or disability status for AI-powered writing tools.
+
+SECTION 5: ENFORCEMENT AND CONSEQUENCES
+
+A student found to have violated this AI policy for the first time will receive a formal written warning that is placed on file with the Dean of Students Office but carries no academic penalty such as grade reduction or course failure.
+
+Any student who submits work in which AI-generated content is used without proper disclosure will receive a failing grade for the course in which the violation occurred, effective immediately upon determination of the violation.
+
+SECTION 6: COLLABORATIVE AND GROUP WORK
+
+In group assignments, AI tools may be freely used by any team member for any purpose including content generation, provided that the group as a whole acknowledges collective responsibility for the final submission quality.
+
+Group projects in which AI tools were used to generate substantial portions of the deliverable must be re-submitted with all AI-generated sections replaced by original student work, and the group grade will be held pending resubmission.

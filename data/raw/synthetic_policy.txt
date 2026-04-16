@@ -1,0 +1,43 @@
+ACADEMIC INTEGRITY POLICY FOR AI TOOLS
+
+PERMITTED USES
+
+Students may use AI writing assistants and large language models for brainstorming, outlining, and generating initial drafts for any course assignment. This policy encourages the adoption of AI tools as part of modern academic practice and professional skill development.
+
+AI-assisted tools are approved for use in all coursework including essays, research papers, programming assignments, and laboratory reports, provided the student discloses their use in a written acknowledgment.
+
+Non-native English speakers are specifically encouraged to use AI grammar and writing assistance tools to improve the clarity and fluency of their written submissions across all courses and departments.
+
+The use of AI tools for code generation is permitted and encouraged in all computer science and engineering courses to help students learn efficient programming practices and exposure to industry-standard workflows.
+
+Students may collaborate with AI assistants on take-home examinations without restriction, as AI tools are considered a standard professional resource in contemporary academic environments.
+
+PROHIBITED USES
+
+Submitting AI-generated text, code, or other content as one's own original work is strictly prohibited and constitutes a serious violation of the Academic Integrity Code. All submitted work must be entirely the student's own original composition without AI assistance.
+
+The use of any automated writing, coding, or analysis tools to produce graded work is forbidden unless the instructor has provided explicit written authorization in the course syllabus for that specific assignment.
+
+Artificial intelligence tools must not be used on any examination, quiz, or timed assessment under any circumstances, including take-home examinations that are completed outside of supervised testing facilities.
+
+AI-generated code submissions are prohibited in all programming courses, as the learning objectives require students to develop independent computational thinking and problem-solving skills without automated assistance.
+
+Non-native English speakers are required to submit work demonstrating their own language proficiency, and the use of AI translation or writing assistance tools is not permitted as it obscures true language ability assessment.
+
+DISCLOSURE REQUIREMENTS
+
+Every student who uses any AI tool in the preparation of an assignment must include a detailed disclosure statement at the end of their submission describing which tools were used and in what capacity. Failure to disclose constitutes academic misconduct separate from any underlying policy violation.
+
+No disclosure is required for AI tools used only for grammar checking, spell checking, or citation formatting, as these are considered equivalent to standard word processing features and do not materially affect the substantive content of student work.
+
+All disclosed AI tool usage is subject to instructor review, and instructors retain the authority to require students to demonstrate their understanding of submitted work through follow-up oral examination or additional written questions.
+
+ENFORCEMENT AND CONSEQUENCES
+
+The Academic Integrity Board has sole authority to adjudicate all violations of this policy, and no individual instructor or department has the power to independently impose academic sanctions for AI misuse without Board approval.
+
+Individual course instructors are empowered to independently assess penalties ranging from a zero on the assignment to course failure for AI policy violations, without referral to the Academic Integrity Board, at their full discretion.
+
+First-time violations will result in a formal warning with no academic penalty, provided the student completes the mandatory AI Literacy Workshop within thirty calendar days of the violation determination.
+
+Repeat violations of this policy will result in immediate suspension from the university for a minimum of one academic semester, and the student must petition the Academic Integrity Board for reinstatement before returning.

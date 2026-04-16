@@ -1,0 +1,43 @@
+{
+  "document": "northeastern_ai_policy.txt",
+  "doc_prefix": "NEU",
+  "annotated_by": "manual",
+  "contradictions": [
+    {
+      "clause_a": "NEU_66321F",
+      "clause_b": "NEU_191510",
+      "type": "PERMISSION_CONFLICT",
+      "description": "Clause A permits AI writing assistants unless prohibited by instructor; Clause B prohibits ALL AI tools at ANY stage of submission unconditionally."
+    },
+    {
+      "clause_a": "NEU_A3E5A8",
+      "clause_b": "NEU_73BB77",
+      "type": "DISCLOSURE_INCONSISTENCY",
+      "description": "Clause A requires full disclosure with tool name, prompts, and outputs appended to every assignment; Clause B says a simple acknowledgment is sufficient for short assignments."
+    },
+    {
+      "clause_a": "NEU_03C592",
+      "clause_b": "NEU_6735C7",
+      "type": "SCOPE_MISMATCH",
+      "description": "Clause A states the policy applies to ALL students at ALL Northeastern campuses; Clause B restricts scope exclusively to undergrads in the College of Arts and Sciences."
+    },
+    {
+      "clause_a": "NEU_1BF0FF",
+      "clause_b": "NEU_A81087",
+      "type": "ACCOMMODATION_CONFLICT",
+      "description": "Clause A explicitly exempts non-native speakers and students with language disabilities from AI restrictions; Clause B states no exemptions exist based on language background or disability."
+    },
+    {
+      "clause_a": "NEU_37C3B2",
+      "clause_b": "NEU_D69482",
+      "type": "CONSEQUENCE_CONFLICT",
+      "description": "Clause A states first violation results in a formal warning with NO academic penalty; Clause B states undisclosed AI use results in an IMMEDIATE failing grade for the course."
+    },
+    {
+      "clause_a": "NEU_0FB3C0",
+      "clause_b": "NEU_6AA750",
+      "type": "COLLABORATION_CONFLICT",
+      "description": "Clause A permits free AI use in group work for any purpose including content generation; Clause B requires resubmission of group projects with all AI-generated sections replaced."
+    }
+  ]
+}

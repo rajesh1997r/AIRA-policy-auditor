@@ -1,0 +1,41 @@
+MASSACHUSETTS INSTITUTE OF TECHNOLOGY — GENERATIVE AI POLICY FOR ACADEMIC WORK
+Office of Academic Integrity and Student Conduct
+Effective: Academic Year 2024-2025
+
+SECTION 1: ACADEMIC INTEGRITY PRINCIPLES
+
+MIT is committed to academic excellence and integrity. The following policy governs the use of generative artificial intelligence systems including large language models, image generators, and code synthesis tools in academic work.
+
+Students are actively encouraged to use AI-powered research assistance tools to identify relevant literature, summarize existing knowledge, and explore research directions in all academic work including coursework, theses, and independent research projects.
+
+The use of artificial intelligence tools for any research-related activity, including literature discovery, summarization, or hypothesis generation, constitutes academic misconduct and is subject to disciplinary action under MIT's Academic Integrity Policy.
+
+SECTION 2: ATTRIBUTION AND CITATION REQUIREMENTS
+
+Any content, ideas, or code produced with the assistance of generative AI must be formally cited using the APA seventh edition format for AI-generated content, specifying the model name, version, access date, and the prompt used to generate the material.
+
+Formal citation of AI-generated content is not required. A brief acknowledgment at the end of the submission stating that AI tools were consulted is fully sufficient to satisfy attribution requirements for all types of academic work.
+
+SECTION 3: APPROVED TOOLS AND PLATFORMS
+
+Only AI tools that appear on the MIT-approved technology list, maintained by the Office of Digital Learning, may be used for academic work. Use of non-approved tools constitutes a policy violation regardless of the output quality or how the output is used.
+
+Students are free to use any commercially available generative AI tool of their choosing, including tools not on the MIT-approved list, provided that they verify the accuracy of AI-generated outputs independently before including them in academic submissions.
+
+SECTION 4: GRADUATE AND UNDERGRADUATE APPLICABILITY
+
+This policy applies uniformly to all MIT students, including undergraduate students, graduate students, and post-doctoral researchers, in all academic work regardless of course level or degree program.
+
+Graduate students engaged in original thesis or dissertation research are exempt from the restrictions on AI use described in this policy, as independent research requires broader latitude in tool selection and methodology.
+
+SECTION 5: RECORD RETENTION
+
+Students who use AI tools in the preparation of academic work are required to retain complete records of all interactions with AI systems, including full conversation logs and generated outputs, for a minimum of one academic year following submission.
+
+Students are not required to preserve AI interaction logs or generated outputs after the final submission of an assignment. Once work has been submitted, no record retention obligation exists under this policy.
+
+SECTION 6: ENFORCEMENT
+
+First-time violations of this AI use policy will result in a required educational workshop on academic integrity and a notation in the student's academic file, but will not affect the student's GPA or result in course failure.
+
+Any confirmed violation of the AI use policy, including a first offense, will result in an automatic failing grade for the affected assignment and may result in suspension from the Institute pending a full disciplinary hearing.

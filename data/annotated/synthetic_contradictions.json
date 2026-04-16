@@ -1,0 +1,54 @@
+{
+  "doc_prefix": "SYN",
+  "description": "Ground truth contradiction pairs for synthetic_policy.txt. 8 true contradictions across 17 clauses.",
+  "contradictions": [
+    {
+      "clause_a": "SYN_CB40C2",
+      "clause_b": "SYN_D68EBB",
+      "type": "PERMISSION_CONFLICT",
+      "note": "Clause A permits AI for any assignment; Clause B prohibits all AI assistance in submitted work."
+    },
+    {
+      "clause_a": "SYN_14B3AD",
+      "clause_b": "SYN_09FD1E",
+      "type": "PERMISSION_CONFLICT",
+      "note": "Clause A permits AI code generation in all CS/engineering courses; Clause B prohibits AI-generated code in all programming courses."
+    },
+    {
+      "clause_a": "SYN_E8B3C1",
+      "clause_b": "SYN_80F2FA",
+      "type": "PERMISSION_CONFLICT",
+      "note": "Clause A encourages AI writing assistance for non-native speakers; Clause B prohibits AI writing tools for non-native speakers."
+    },
+    {
+      "clause_a": "SYN_67FC8D",
+      "clause_b": "SYN_4A9592",
+      "type": "PERMISSION_CONFLICT",
+      "note": "Clause A permits AI collaboration on take-home exams; Clause B explicitly prohibits AI on all examinations including take-home."
+    },
+    {
+      "clause_a": "SYN_123DD5",
+      "clause_b": "SYN_DE31CC",
+      "type": "SCOPE_MISMATCH",
+      "note": "Clause A approves AI for all coursework with disclosure; Clause B forbids AI unless explicitly authorized per-assignment in syllabus."
+    },
+    {
+      "clause_a": "SYN_A333EE",
+      "clause_b": "SYN_48D879",
+      "type": "DISCLOSURE_INCONSISTENCY",
+      "note": "Clause A requires disclosure for every AI tool use; Clause B carves out an exception (no disclosure for grammar/spell checking)."
+    },
+    {
+      "clause_a": "SYN_5796AD",
+      "clause_b": "SYN_17302D",
+      "type": "AUTHORITY_CONFLICT",
+      "note": "Clause A gives Board sole authority over sanctions; Clause B empowers instructors to independently impose sanctions without Board referral."
+    },
+    {
+      "clause_a": "SYN_CB40C2",
+      "clause_b": "SYN_DE31CC",
+      "type": "PERMISSION_CONFLICT",
+      "note": "Clause A broadly permits AI for brainstorming/drafting; Clause B forbids automated tools unless instructor-authorized in syllabus."
+    }
+  ]
+}
