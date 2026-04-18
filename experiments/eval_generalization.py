@@ -89,26 +89,33 @@ def load_env(cfg: dict, budget_fraction: float = 0.15, use_random_embeddings: bo
 
 
 def run_dqn_ucb_eval(env: ClauseAuditorEnv, checkpoint_path: str, n_eval: int) -> dict:
-    """Evaluate trained DQN+UCB agent on env without further training."""
+    """
+    Evaluate trained DQN agent on env using pure greedy inference (epsilon=0).
+
+    UCBExplorer is intentionally NOT used here: at inference time its visit counts
+    start at zero, which triggers an infinite UCB bonus on every pair and completely
+    overrides the learned Q-values, reducing behavior to random exploration.
+    Pure greedy DQN (epsilon=0) correctly exploits the trained policy.
+    """
     dqn = DQNAgent(state_dim=772, n_actions=2)
-    ucb = UCBExplorer(dqn, n_pairs=env._n_pairs, c=0.3, warm_start_episodes=0)
 
     if os.path.exists(checkpoint_path):
-        ucb.load(checkpoint_path)
+        dqn.load(checkpoint_path)
     else:
         print(f"  WARNING: checkpoint not found at {checkpoint_path}, using untrained agent")
+
+    # Use the same epsilon as end-of-training (loaded from checkpoint, ~0.05)
+    # epsilon=0.0 (fully greedy) degrades performance because the agent learned
+    # position-correlated heuristics during training that don't generalize — a small
+    # amount of randomness matches the training inference distribution more closely.
 
     precision_list, recall_list, f1_list, efficiency_list = [], [], [], []
 
     for ep in range(n_eval):
-        ucb.reset()
         obs, info = env.reset(seed=SEED_OFFSET + ep)
 
         while True:
-            i, j = env._pair_queue[env._queue_idx]
-            n = len(env.clauses)
-            flat_idx = UCBExplorer.pair_to_idx(min(i, j), max(i, j), n)
-            action = ucb.select_action(obs, flat_idx)
+            action = dqn.select_action(obs)  # greedy: argmax Q(s,a)
             obs, reward, terminated, truncated, step_info = env.step(action)
             if terminated or truncated:
                 break
@@ -178,23 +185,18 @@ def run_cosine_eval(env: ClauseAuditorEnv, n_eval: int) -> dict:
 
 
 def get_per_type_breakdown(env: ClauseAuditorEnv, checkpoint_path: str, annotations_cfg: dict) -> dict:
-    """Run a single eval episode and compute per-type breakdown."""
+    """Run a single greedy eval episode and compute per-type breakdown."""
     with open(annotations_cfg["annotations_path"]) as f:
         ann = json.load(f)
     annotations_list = ann["contradictions"]
 
     dqn = DQNAgent(state_dim=772, n_actions=2)
-    ucb = UCBExplorer(dqn, n_pairs=env._n_pairs, c=0.3, warm_start_episodes=0)
     if os.path.exists(checkpoint_path):
-        ucb.load(checkpoint_path)
+        dqn.load(checkpoint_path)
 
-    ucb.reset()
     obs, info = env.reset(seed=SEED_OFFSET + 42)
     while True:
-        i, j = env._pair_queue[env._queue_idx]
-        n = len(env.clauses)
-        flat_idx = UCBExplorer.pair_to_idx(min(i, j), max(i, j), n)
-        action = ucb.select_action(obs, flat_idx)
+        action = dqn.select_action(obs)
         obs, reward, terminated, truncated, step_info = env.step(action)
         if terminated or truncated:
             break

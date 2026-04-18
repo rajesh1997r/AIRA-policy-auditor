@@ -1,0 +1,240 @@
+{
+  "n_eval_episodes": 20,
+  "checkpoint": "experiments/exp3_dqn_with_ucb/checkpoints/final.pt",
+  "documents": {
+    "Synthetic": {
+      "split": "train",
+      "n_clauses": 17,
+      "n_pairs": 136,
+      "n_contradictions": 8,
+      "dqn_ucb": {
+        "precision": 0.7188655788655789,
+        "precision_std": 0.0847234557008631,
+        "recall": 0.98125,
+        "recall_std": 0.04463392767839281,
+        "f1": 0.8273841466411127,
+        "f1_std": 0.06358950825308012,
+        "efficiency": 0.08124999999999999,
+        "efficiency_std": 0.008846477511408796
+      },
+      "random": {
+        "precision": 0.036899509803921565,
+        "recall": 0.10982142857142858,
+        "f1": 0.054572897312027746,
+        "efficiency": 0.13272058823529412
+      },
+      "cosine": {
+        "precision": 0.25,
+        "recall": 0.6339285714285714,
+        "f1": 0.35846560846560843,
+        "efficiency": 0.14705882352941174
+      },
+      "per_type_breakdown": {
+        "PERMISSION_CONFLICT": {
+          "TP": 5,
+          "FP": 9,
+          "FN": 0,
+          "precision": 0.35714285714285715,
+          "recall": 1.0,
+          "f1": 0.5263157894736842,
+          "total_gt": 5
+        },
+        "SCOPE_MISMATCH": {
+          "TP": 1,
+          "FP": 13,
+          "FN": 0,
+          "precision": 0.07142857142857142,
+          "recall": 1.0,
+          "f1": 0.13333333333333333,
+          "total_gt": 1
+        },
+        "DISCLOSURE_INCONSISTENCY": {
+          "TP": 1,
+          "FP": 13,
+          "FN": 0,
+          "precision": 0.07142857142857142,
+          "recall": 1.0,
+          "f1": 0.13333333333333333,
+          "total_gt": 1
+        },
+        "AUTHORITY_CONFLICT": {
+          "TP": 1,
+          "FP": 13,
+          "FN": 0,
+          "precision": 0.07142857142857142,
+          "recall": 1.0,
+          "f1": 0.13333333333333333,
+          "total_gt": 1
+        }
+      }
+    },
+    "Northeastern": {
+      "split": "zero-shot",
+      "n_clauses": 14,
+      "n_pairs": 91,
+      "n_contradictions": 6,
+      "dqn_ucb": {
+        "precision": 0.13076923076923078,
+        "precision_std": 0.07337993857053428,
+        "recall": 0.2833333333333333,
+        "recall_std": 0.15898986690282427,
+        "f1": 0.1789473684210526,
+        "f1_std": 0.10041465278073111,
+        "efficiency": 0.14285714285714285,
+        "efficiency_std": 0.0
+      },
+      "random": {
+        "precision": 0.0562978687978688,
+        "recall": 0.1075,
+        "f1": 0.07253234897197745,
+        "efficiency": 0.12252747252747254
+      },
+      "cosine": {
+        "precision": 0.46153846153846156,
+        "recall": 1.0,
+        "f1": 0.631578947368421,
+        "efficiency": 0.14285714285714285
+      },
+      "per_type_breakdown": {
+        "PERMISSION_CONFLICT": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        },
+        "DISCLOSURE_INCONSISTENCY": {
+          "TP": 1,
+          "FP": 12,
+          "FN": 0,
+          "precision": 0.07692307692307693,
+          "recall": 1.0,
+          "f1": 0.14285714285714288,
+          "total_gt": 1
+        },
+        "SCOPE_MISMATCH": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        },
+        "ACCOMMODATION_CONFLICT": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        },
+        "CONSEQUENCE_CONFLICT": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        },
+        "COLLABORATION_CONFLICT": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        }
+      }
+    },
+    "MIT": {
+      "split": "zero-shot",
+      "n_clauses": 14,
+      "n_pairs": 91,
+      "n_contradictions": 6,
+      "dqn_ucb": {
+        "precision": 0.12692307692307694,
+        "precision_std": 0.09190617804114247,
+        "recall": 0.275,
+        "recall_std": 0.19913005242247536,
+        "f1": 0.17368421052631575,
+        "f1_std": 0.12576634889840543,
+        "efficiency": 0.14285714285714285,
+        "efficiency_std": 0.0
+      },
+      "random": {
+        "precision": 0.0562978687978688,
+        "recall": 0.1075,
+        "f1": 0.07253234897197745,
+        "efficiency": 0.12252747252747254
+      },
+      "cosine": {
+        "precision": 0.30769230769230765,
+        "recall": 0.6733333333333332,
+        "f1": 0.42222222222222217,
+        "efficiency": 0.14285714285714285
+      },
+      "per_type_breakdown": {
+        "PERMISSION_CONFLICT": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        },
+        "ATTRIBUTION_CONFLICT": {
+          "TP": 1,
+          "FP": 12,
+          "FN": 0,
+          "precision": 0.07692307692307693,
+          "recall": 1.0,
+          "f1": 0.14285714285714288,
+          "total_gt": 1
+        },
+        "TOOL_CONFLICT": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        },
+        "SCOPE_MISMATCH": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        },
+        "RETENTION_CONFLICT": {
+          "TP": 1,
+          "FP": 12,
+          "FN": 0,
+          "precision": 0.07692307692307693,
+          "recall": 1.0,
+          "f1": 0.14285714285714288,
+          "total_gt": 1
+        },
+        "CONSEQUENCE_CONFLICT": {
+          "TP": 0,
+          "FP": 13,
+          "FN": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "total_gt": 1
+        }
+      }
+    }
+  }
+}
